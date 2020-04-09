@@ -1,0 +1,8 @@
+{
+  "time_per_push":60, 
+  "poll_rate":5,
+  "calendarFormat":{
+    "summary": "Busy Timer Set",
+    "description": "Busy"
+  }
+}
