@@ -1,0 +1,9 @@
+adafruit-circuitpython-neopixel==6.0.0
+google-api-python-client==1.7.12
+google-auth==1.11.2
+google-auth-httplib2==0.0.3
+google-auth-oauthlib==0.4.1
+keyboard==0.13.5
+pytz==2019.3
+
+

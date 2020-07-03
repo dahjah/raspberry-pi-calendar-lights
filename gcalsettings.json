@@ -11,5 +11,6 @@
   "busy_RGB":"255,0,0",
   "available_RGB":"0,255,0",
   "warning_time": 600,
+  "tick_freq": 0.5,
   "debug":"true"
 }
