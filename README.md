@@ -37,7 +37,9 @@ $ sudo pip install -r requirements.txt
 - And more!
 
 ## Usage:
-- run the following code to start up your application (sudo rights are needed to access the GPIO. If you won't be using the GPIO to interface with your lights, you can execute it sans sudo)
+- To set up, plug in your neopixel data line to Pin 18 on your pi, and 5v/Ground where applicable (either directly to the pi or externally, it doesn't matter.)
+
+- Then, run the following code (after cloning from this repo) to start up your application (sudo rights are needed to access the GPIO. If you won't be using the GPIO to interface with your lights, you can execute it sans sudo)
 ```shell
 $ sudo python3 rasp_cal_notif.py
 ```
@@ -50,7 +52,7 @@ $ sudo python3 rasp_cal_notif.py
 ## Documentation
 
 
-> Settings explanation:
+> Settings Breakdown:
 - time_per_push: The amount of time (in minutes) to block off on the calendar for every button press. Defaults to 15 minutes
 - poll_rate: The amount of time (in seconds) between checking the server for new calendar events. Defaults to 300 (5 minutes)
 - calendarFormat: Template to use for each calendar event. Anything defined <a href="https://developers.google.com/calendar/create-events">here</a> goes, with the exception of start_time and end_time. Defaults to "Busy Timer Set"
