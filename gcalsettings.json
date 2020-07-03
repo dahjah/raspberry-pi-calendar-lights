@@ -1,8 +1,15 @@
 {
   "time_per_push":60, 
-  "poll_rate":5,
+  "poll_rate":50,
   "calendarFormat":{
     "summary": "Busy Timer Set",
     "description": "Busy"
-  }
+  },
+  "neo_strip_size":8,
+  "neo_brightness":0.01,
+  "warning_RGB": "255,255,0",
+  "busy_RGB":"255,0,0",
+  "available_RGB":"0,255,0",
+  "warning_time": 600,
+  "debug":"true"
 }
